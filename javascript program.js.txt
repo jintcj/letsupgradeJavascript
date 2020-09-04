@@ -1,0 +1,91 @@
+program to search for a particular character in a string
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ var d="united states of america"
+ let index= d.indexOf("f");
+ console.log(index);  
+</body>
+</html>
+
+program to search a element in an array
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to check get the value of the first element in the array that has a value of 18 or more.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<p><strong>Note:</strong> The find() method is not supported in IE 11 (and earlier versions).</p>
+
+<script>
+var ages = [3, 10, 18, 20];
+
+function checkAdult(age) {
+  return age >= 18;
+}
+
+function myFunction() {
+  document.getElementById("demo").innerHTML = ages.find(checkAdult);
+}
+</script>
+
+</body>
+</html>
+
+
+program to print reverse of an array
+
+var arr = [34, 234, 567, 4]; 
+
+    document.write(arr); 
+
+  
+
+    // Reversed array 
+
+    var new_arr = arr.reverse(); 
+
+    document.write("<br>"); 
+
+    document.write(new_arr); 
+} 
+func(); 
+
+
+program to convert minutes into seconds
+
+function time_convert(num)
+ { 
+  var minutes = Math.floor(num / 60);  
+  var seconds = num % 60;
+  return minutes + ":" + seconds;         
+}
+
+console.log(time_convert(71));
+console.log(time_convert(400));
+console.log(time_convert(1000));
+
+Program to search for a element in a array of strings
+
+
+unction contains(arr, element) {
+    for (var i = 0; i < arr.length; i++) {
+        if (arr[i] === element) {
+            return true;
+        }
+    }
+    return false;
+}
+arr = [2, 5, 9, 6];
+console.log(contains(arr, 5));
